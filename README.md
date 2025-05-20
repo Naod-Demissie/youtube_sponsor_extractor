@@ -42,7 +42,7 @@ Streamlit app to extract sponsor brand names and URLs from YouTube video descrip
 ## Running
 Run:
 ```bash
-streamlit run main.py
+streamlit run src/main.py
 ```
 Open `http://localhost:8501` in a browser.
 
