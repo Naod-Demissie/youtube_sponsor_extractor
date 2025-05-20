@@ -1,0 +1,3 @@
+"""
+YouTube Sponsor Extractor package
+"""
