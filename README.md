@@ -36,18 +36,14 @@ Streamlit app to extract sponsor brand names and URLs from YouTube video descrip
    OPENROUTER_API_KEY=your_openrouter_key
    ```
 
-4. **Verify Files**:
-   Ensure `sponsor_extraction_prompt.txt` and other files are present (see [Structure](#structure)).
+4. **Run App**:
+   ```bash
+   streamlit run src/main.py
+   ```
+   Open `http://localhost:8501` in a browser.
 
-## Running
-Run:
-```bash
-streamlit run src/main.py
-```
-Open `http://localhost:8501` in a browser.
-
-## Using
-1. Enter YouTube URL (e.g., `https://www.youtube.com/watch?v=dQw4w9WgXcQ`).
+## Usage
+1. Enter YouTube URL (e.g., https://www.youtube.com/watch?v=Eyg5l9cXYDI).
 2. Click "Extract Sponsors".
 3. View brand names and URLs in table.
 4. Download as JSON, CSV, Excel, DOCX, or TXT.
